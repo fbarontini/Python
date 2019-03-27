@@ -12,6 +12,7 @@ Python scripts for personal purposes
   ### Email validator
   ### Leitor de Pastas
   ### Move-mouse (action script)
+  ### Consulta Receita Federal (ws)
   ### Consulta SIGEF
   ### Wikipedia
   ### Workflow de ofertas c/ Pandas
