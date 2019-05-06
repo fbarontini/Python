@@ -602,12 +602,12 @@ def get_endereco(s):
 	# ---------------
 	target='#L010103'
 	t = s.find(target)
-
+	dic = {}
 	consolidado = []
 	
 	if t != -1:
 		a, b, c, d 	= 8, 78, 108, 188
-		dic = {}
+		#dic = {}
 		dic['endereco']			 = s[t+a:t+b].strip()
 		dic['bairro'] 			 = s[t+b:t+c].strip()
 		dic['endereco_s_bairro'] = s[t+c:t+d].strip()
@@ -779,7 +779,7 @@ def get_relac_fornecedores(s):
 		dic = {}
 		
 		dic['descricao']	 = s[t+a:t+b].strip()
-		dic['qtd_fontess']	 = to_int(s[t+b:t+c])
+		dic['qtd_fontes']	 = to_int(s[t+b:t+c])
 
 		t = s.find(target, t+1)
 		consolidado.append(dic)
