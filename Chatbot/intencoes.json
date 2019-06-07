@@ -1,0 +1,28 @@
+{"intents": [
+        {"tag": "saudacao",
+         "patterns": ["Ola", "Como vai", "Tudo bem?", "Oi", "Bom dia", "Boa tarde", "Boa noite"],
+         "responses": ["Ola, obrigado por nos visitar.\nEm que posso ajudar?", "E bom ve-lo de volta. Como posso ajudar?", "Oi, como podemos ajudar?"],
+         "context_set": ""
+        },
+        {"tag": "despedida",
+         "patterns": ["Tchau", "Ate logo", "Adeus"],
+         "responses": ["Ate logo, nos vemos em breve", "Tenha um bom dia", "Ate mais! Esperamos ve-lo em breve."]
+        },
+        {"tag": "agradecimento",
+         "patterns": ["Obrigado", "Muito obrigado", "Foi muito util"],
+         "responses": ["Por nada.", "Foi um prazer!", "Não por isso."]
+        },
+        {"tag": "horario",
+         "patterns": ["Que horas voces abrem?", "Quais os seus horarios?", "Quando voces abrem?" ],
+         "responses": ["Estamos abertos em horario comercial, de segunda a sexta.", "Nosso horario e das 09 as 18, de segunda a sexta-feira."]
+        },
+		{"tag": "antecipacao",
+         "patterns": ["Quero antecipar um titulo.", "Quero adiantar um boleto" ],
+         "responses": ["Se voce quer antecipar um tiulo, basta entrar em contato pelo numero 11-98888-8888", "Por favor aguarde, vamos transferir para um de nossos atendentes."]
+        },
+		{"tag": "atraso",
+         "patterns": ["Esqueci de pagar meu titulo.", "O sacado nao vai conseguir pagar o boleto na data prevista", "Vou atrasar o pagamento" ],
+         "responses": ["Nao tem problema, basta acessar seu perfil no nosso site e emitir uma segunda via"]
+        }
+   ]
+}
