@@ -2,7 +2,7 @@
 """
 Created on Wed Aug 15 17:32:24 2018
 
-@author: fbarontini
+@author: unknown
 
 Rotina para disparo de email dos arquivos no batimento.
 
